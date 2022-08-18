@@ -23,7 +23,7 @@ function OnBoarding() {
             <div style={{display:"flex" , justifyContent : "space-evenly", color : 'rgba(105, 174, 169, 1)', marginTop: '-3rem' }}>
                 <p>Already have a account?</p>
 
-                <a href={"g"} style={{textDecoration:'none' }}>
+                <a href={"/signin"} style={{textDecoration:'none' }}>
                     <p style={{color : 'rgba(105, 174, 169, 1)' , textDecoration : 'none' , }}>login</p></a>
 
             </div>
