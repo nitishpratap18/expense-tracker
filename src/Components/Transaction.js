@@ -4,7 +4,7 @@ import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward'
 import TransactionList from "./TransactionList";
 import AddIcon from "@material-ui/icons/Add"
 function Transaction() {
-    var tempObject ={git
+    var tempObject ={
         nameOfUser :'Nitish Pratap Yadav',
         totalAmount :  2548.00,
         income : 1840.00,
