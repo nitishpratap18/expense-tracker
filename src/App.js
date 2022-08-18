@@ -1,12 +1,10 @@
 
 import './App.css'
-import OnBoarding from  './Components/OnBoarding'
-import Transaction from "./Components/Transaction";
+import Routers from './Components/Routers'
 function App() {
   return (
     <div className="App">
-    {/*<OnBoarding></OnBoarding>*/}
-      <Transaction></Transaction>
+    <Routers></Routers>
     </div>
   );
 }
