@@ -13,9 +13,12 @@ function OnBoarding() {
             </div>
 
            <a href={'google.com'}> <img src={gateStarted} alt="man" style={{width : "100vw" , height : "67"}}/></a>
-            <div style={{display:"flex" , justifyContent : "space-evenly"}}>
+            <div style={{display:"flex" , justifyContent : "space-evenly", color : 'rgba(105, 174, 169, 1)', marginTop: '-3rem' }}>
                 <p>Already have a account?</p>
-                <a href={"google.com"}><p>login</p></a>
+
+                <a href={"google.com"} style={{textDecoration:'none' }}>
+                    <p style={{color : 'rgba(105, 174, 169, 1)' , textDecoration : 'none' , }}>login</p></a>
+
             </div>
 
 
