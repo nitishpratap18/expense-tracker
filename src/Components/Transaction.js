@@ -3,6 +3,7 @@ import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward'
 import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward'
 import TransactionList from "./TransactionList";
 import AddIcon from "@material-ui/icons/Add"
+import addExpense from "./AddExpense";
 function Transaction() {
     var tempObject ={
         nameOfUser :'Nitish Pratap Yadav',
@@ -15,7 +16,7 @@ function Transaction() {
             <div className="rectangle-9" style={{position: "absolute", width: '100vw',height:'15rem',left:'0px',top:'0px' ,backgroundColor:'rgba(66, 150, 144, 1)',borderBottomRightRadius: '20%',borderBottomLeftRadius: '20%',color:'rgba(255, 255, 255, 1)'}}>
                 <p style={{marginTop:'5rem', marginRight:'70vw',}}>Good Morning,</p>
                 <div style={{display :'flex',marginTop:'-2rem',}}>
-                    <h2 style={{paddingLeft:'1rem'}}>{tempObject.nameOfUser}</h2>
+                    <h2 style={{paddingLeft:'1rem', fontSize:'4vw%'}}>{tempObject.nameOfUser}</h2>
                     <NotificationsIcon style={{paddingLeft:'10rem', fontWeight: '600',}}></NotificationsIcon>
                 </div>
             </div>
@@ -46,7 +47,9 @@ function Transaction() {
                     <TransactionList></TransactionList>
                 </div>
                 <div style={{color :'white' ,fontSize:"1rem" , backgroundColor:'green', borderRadius:'50%', width:'20vw',height:'20vw',marginLeft:'35%'}}>
-                    <AddIcon style={{textAlign:'center',marginTop:'1.7rem'}}  c></AddIcon>
+                   <a href="/add">
+                    <AddIcon style={{textAlign:'center',marginTop:'1.7rem'}} ></AddIcon>
+                   </a>
                 </div>
             </div>
 
